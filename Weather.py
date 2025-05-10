@@ -12,9 +12,3 @@ dic = json.loads(r.text)
 a= (dic["current"]["temp_c"])
 s.speak(a)
 
-# y=3
-# y=y*2
-# print(y)
-#
-# double  = lambda x: x * 2
-# print(double(3))
